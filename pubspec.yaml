@@ -1,0 +1,27 @@
+name: peta_wisata
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  google_maps_flutter: 2.2.1
+  scrollable_positioned_list: 0.3.5
+  map_launcher: 2.4.0
+  flutter_svg: 1.1.6
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets:
+   - assets/images/
+  uses-material-design: true
+
